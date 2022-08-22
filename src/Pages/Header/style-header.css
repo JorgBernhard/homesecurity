@@ -1,0 +1,117 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  position:fixed;
+  background-color: rgba(25, 31, 41, 0.8);
+  width: 20rem;
+  height: 100vh;
+  display: flex;
+  top: 0rem;
+  z-index: 1;
+  
+  align-items: center;
+  justify-content: space-between;
+  border-right: 0.5rem solid rgb(10, 145, 255);
+}
+.Logo {
+  width: 15rem;
+  margin-top: 4rem;
+  border-radius: 50%;
+  border:0.3rem solid rgb(255, 255, 255);
+
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25rem;
+}
+@media only screen and (max-width: 1400px) {
+  .list {
+    margin-bottom: 16rem;
+   }
+   }
+a {
+  text-decoration: none;
+  font-size: 2.4rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  
+}
+@media only screen and (max-width: 1400px) {
+ a {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  }
+  }
+
+a:hover {
+  color: rgb(10, 145, 255);
+}
+.logos-header {
+  display: flex;
+  flex-direction: row;
+  margin-top: 4rem;
+  align-items: center;
+  
+ }
+.linked-blue img{
+  height: 5rem;
+}
+.github-blue img{
+  height: 5rem;
+ 
+}
+.info {
+  font-size: 1.8rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  color: rgb(255, 255, 255);
+  margin-bottom: -4rem;
+}
+@media only screen and (max-width: 1400px) {
+  .info {
+    font-size: 1.4rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    color: rgb(255, 255, 255);
+    margin-bottom: -2rem;
+   }
+   }
+.telefone {
+  font-size: 1.8rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 0rem;
+  color: rgb(255, 255, 255);
+}
+@media only screen and (max-width: 1400px) {
+  .telefone {
+    font-size: 1.4rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    color: rgb(255, 255, 255);
+   }
+   }
+.handy{
+  font-size: 1.8rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-top: -5rem;
+  margin-bottom: 6rem;
+  color: rgb(255, 255, 255);
+}
+@media only screen and (max-width: 1400px) {
+  .handy {
+    font-size: 1.4rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: -3rem;
+    margin-bottom: 4rem;
+    color: rgb(255, 255, 255);
+   }
+   }

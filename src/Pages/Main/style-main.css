@@ -1,0 +1,121 @@
+.Main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(8, 150, 20)
+    
+}
+
+.Background {
+    margin-left: 0rem;
+    width: 100vw;
+    height: 100vh;
+     display: flex;
+    flex-direction: row;
+    background-image: url('../../assets/casa-elegante.jpg');
+    background-size: cover;
+}
+
+.Center {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 15rem;
+    
+}
+@media only screen and (max-width: 1400px) {
+    .Center{
+    margin-left: 8rem;
+    }
+    }
+.left-side {
+    display: flex;
+    flex-direction: column;
+}
+.empresa {
+    font-size: 6rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 0.5rem 0.5rem 0.5rem  rgb(4, 27, 46);
+    margin-left: 28rem;
+    margin-top: 4rem;
+}
+@media only screen and (max-width: 1400px) {
+    .empresa{
+    font-size: 4rem;
+    }
+    }
+.seguranca {
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+    margin-left: 110rem;
+    margin-top: -3rem;
+    text-shadow: 0.5rem 0.5rem 0.5rem  rgb(4, 27, 46);
+}
+@media only screen and (max-width: 1400px) {
+    .seguranca {
+    font-size: 3rem;
+    margin-left: 79rem;
+    margin-top: -2rem;
+    }
+    }
+.celular {
+   font-size: 3rem;
+   color: rgb(255, 255, 255);
+   margin-left: 124rem;
+   margin-top: -2rem;
+
+   text-shadow: 0.5rem 0.5rem 0.5rem  rgb(4, 27, 46);
+}
+@media only screen and (max-width: 1400px) {
+    .celular {
+    font-size: 2.4rem;
+    margin-top: -2rem;
+    margin-left: 88rem;
+    }
+    }
+.center {
+    display: flex;
+    flex-direction: row;
+}
+.text {
+    font-size: 2rem;
+    text-align: justify;
+    width: 100rem;
+    color: rgb(255, 255, 255);
+    margin-left: 28rem; 
+    margin-top: 11rem;
+    padding: 4rem;
+    background-color: rgba(25, 31, 41, 0.8);
+    border-radius: 2rem;
+    border: 0.2rem solid rgb(10, 145, 255);
+    box-shadow:0.5rem 0.5rem 0.5rem  rgb(4, 27, 46);
+}
+@media only screen and (max-width: 1400px) {
+    .text {
+    font-size: 1.4rem;
+    margin-top: 11rem;
+    margin-left: 28rem;
+    width:60rem;
+    }
+    }
+.touch {
+    width: 40rem;
+    height: 30rem;
+    margin-left: 0rem;
+    border-radius: 2rem;
+    border: 0.2rem solid rgb(10, 145, 255);
+    box-shadow:0.5rem 0.5rem 0.5rem  rgb(4, 27, 46);
+    margin-left: -16rem;
+    margin-top: 3rem;
+}
+@media only screen and (max-width: 1400px) {
+    .touch {
+        width: 30rem;
+    height: 20rem;
+    margin-top: 2rem;
+    margin-left: -8rem;
+    
+    }
+    }
+
