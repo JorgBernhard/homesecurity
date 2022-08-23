@@ -6,14 +6,14 @@ function Main() {
   return (
     <div id="main">
       <div className="Main">
-          <div className="Background">
+          <div className="Background-main">
             <div className="Center">
               <div ClassName="left-side">
               <h1 className="empresa">Natal Eletrônica & Segurança - Natal Antenas</h1>
               <h1 className="seguranca">A segurança na sua Casa</h1>
                <h3 className="celular">Central (84) 3208-2121</h3>
                <div className="center">
-               <h4 className="text">Atendemos:<br></br>Portão eletrônico<br></br> Câmeras de segurança<br></br>
+               <h4 className="text">Atendemos:<br></br><br></br>Portão eletrônico<br></br> Câmeras de segurança<br></br>
                Cerca elétrica<br></br>Antenas de TV<br></br>
                Motor para portão<br></br>Interfone com/sem Camera<br></br>Alarmes<br></br> <br></br>
                 Trabalhamos com os melhores 

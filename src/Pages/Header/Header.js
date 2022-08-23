@@ -1,6 +1,6 @@
 import './style-header.css';
 import Logo from '../../assets/Logo.png';
-
+import JBR from '../../assets/Logo-JB.png';
 
 export default function NavBar() {
 
@@ -18,6 +18,7 @@ export default function NavBar() {
                 <h3 className="info">Ligue para a gente:</h3>
                <h3 className="telefone">(84) 3208-2121</h3>
                <h3 className="handy">(84) 99656-6666</h3>
+               <a className="JBR" target="_blank" rel="noreferrer" href='https://jorg-reske.vercel.app/'><img src={JBR} alt="JBR" /></a>  
             </div>
         </div>
     );

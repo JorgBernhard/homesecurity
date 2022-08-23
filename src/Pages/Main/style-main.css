@@ -7,9 +7,9 @@
     
 }
 
-.Background {
+.Background-main {
     margin-left: 0rem;
-    width: 100vw;
+    width: 99vw;
     height: 100vh;
      display: flex;
     flex-direction: row;
@@ -84,7 +84,7 @@
     width: 100rem;
     color: rgb(255, 255, 255);
     margin-left: 28rem; 
-    margin-top: 11rem;
+    margin-top: 7rem;
     padding: 4rem;
     background-color: rgba(25, 31, 41, 0.8);
     border-radius: 2rem;
@@ -94,7 +94,7 @@
 @media only screen and (max-width: 1400px) {
     .text {
     font-size: 1.4rem;
-    margin-top: 11rem;
+    margin-top: 7rem;
     margin-left: 28rem;
     width:60rem;
     }

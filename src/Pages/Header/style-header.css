@@ -24,11 +24,14 @@
 .list {
   display: flex;
   flex-direction: column;
-  margin-bottom: 25rem;
+  margin-bottom: 15rem;
+  margin-top: 5rem;
 }
 @media only screen and (max-width: 1400px) {
   .list {
-    margin-bottom: 16rem;
+    
+    margin-bottom: 6rem;
+    margin-top: 5rem;
    }
    }
 a {
@@ -56,21 +59,14 @@ a:hover {
   flex-direction: row;
   margin-top: 4rem;
   align-items: center;
-  
- }
-.linked-blue img{
-  height: 5rem;
 }
-.github-blue img{
-  height: 5rem;
- 
-}
+
 .info {
   font-size: 1.8rem;
   margin-right: 1rem;
   margin-left: 1rem;
   color: rgb(255, 255, 255);
-  margin-bottom: -4rem;
+  margin-bottom: 4rem;
 }
 @media only screen and (max-width: 1400px) {
   .info {
@@ -78,7 +74,8 @@ a:hover {
     margin-right: 2rem;
     margin-left: 2rem;
     color: rgb(255, 255, 255);
-    margin-bottom: -2rem;
+    margin-bottom: 3rem;
+    margin-top: -2rem;
    }
    }
 .telefone {
@@ -93,7 +90,7 @@ a:hover {
     font-size: 1.4rem;
     margin-right: 2rem;
     margin-left: 2rem;
-    margin-bottom: 1rem;
+    margin-top: -2rem;
     color: rgb(255, 255, 255);
    }
    }
@@ -110,8 +107,23 @@ a:hover {
     font-size: 1.4rem;
     margin-right: 2rem;
     margin-left: 2rem;
-    margin-top: -3rem;
+    margin-top: 0rem;
     margin-bottom: 4rem;
     color: rgb(255, 255, 255);
    }
    }
+   .JBR img {
+    width: 10rem; 
+    margin-bottom: 2rem;
+    border: 0.2rem solid wheat;
+    border-radius: 1rem;
+    cursor: pointer;
+   }
+   @media only screen and (max-width: 1400px) {
+    .JBR img{
+      margin-top: -2rem;
+     }
+     }
+     .JBR img:hover {
+     transform: rotate(1deg);
+     }
